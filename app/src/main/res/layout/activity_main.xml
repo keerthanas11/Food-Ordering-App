@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Existing Views -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F63A2C"
+            app:tabTextColor="#FFFFFF"
+            app:tabSelectedTextColor="#000000"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!-- Cart Icon -->
+    <TextView
+        android:id="@+id/cartIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:text="CART"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:background="#F63A2C"
+        android:gravity="center"
+        android:elevation="4dp" />
+</FrameLayout>

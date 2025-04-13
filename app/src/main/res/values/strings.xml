@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FOOD</string>
+    <string name="register">Register</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="login">Login</string>
+    <string name="logo">Logo</string>
+    <string name="welcome_to_aahara">Welcome to AAHARA</string>
+    <string name="logo1">Logo1</string>
+</resources>
